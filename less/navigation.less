@@ -1,1 +1,34 @@
 // Navigation code here
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 10px 0;
+  background-color: @wild-sand;
+}
+
+nav {
+  .flexbox(row, center, center);
+  margin: 0 auto;
+  padding: 10px;
+  background-color: @wild-sand;
+  a {
+    .link();
+    padding: 0 21px;
+    font-size: 1.6rem;
+
+    @media @phone {
+      padding: 0 2%;
+    }
+  }
+}
+
+nav.fixednav {
+  background-color: @ebony-clay;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  top: 0;
+  a {
+    color: white;
+  }
+}
