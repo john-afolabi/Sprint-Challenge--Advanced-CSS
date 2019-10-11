@@ -227,6 +227,25 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+.home .space-images img:hover {
+  animation: bounce 0.2s 4 alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
 @media (max-width: 500px) {
   .home .space-images .blast {
     width: 90%;

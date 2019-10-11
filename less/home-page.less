@@ -27,6 +27,26 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      &:hover {
+        animation: bounce 0.2s 4 alternate;
+      }
+      @keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-5px);
+        }
+      }
+      @-webkit-keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-5px);
+        }
+      }
     }
 
     .blast {
