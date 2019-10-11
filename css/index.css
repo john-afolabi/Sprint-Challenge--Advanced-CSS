@@ -186,6 +186,16 @@ nav a {
     padding: 0 2%;
   }
 }
+nav.fixednav {
+  background-color: #23293B;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  top: 0;
+}
+nav.fixednav a {
+  color: white;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
